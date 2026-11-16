@@ -1,0 +1,107 @@
+.content {
+  max-width: 1200px;
+  width: 100%;
+  min-height: 200px;
+  background-color: burlywood;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.textHeader {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.links {
+  width: 900px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-decoration: none;
+  margin: 0;
+}
+
+#allTrails {
+  margin-right: 40px;
+}
+
+button {
+  border: solid 2px #242814;
+  background-color: cornsilk;
+}
+
+.trailsContainer {
+  width: 1100px;
+  min-height: 100px;
+  /* background-color: gainsboro; */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 20px;
+  margin-top: 0px;
+}
+
+.trailCard {
+  width: 200px;
+  height: 250px;
+  background-color: cornsilk;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+  position: relative;
+}
+
+.trailImg {
+  height: 150px;
+  width: 200px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./images/trail.png);
+}
+
+.trailTitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.saveBtn {
+  height: 20px;
+  width: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cornsilk;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.starIcon {
+  width: 15px;
+  height: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./images/star-regular-full.svg);
+}
+
+.starIcon.starFilled {
+  width: 15px;
+  height: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./images/star-solid-full.svg);
+}
